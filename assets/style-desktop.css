@@ -1,0 +1,248 @@
+/* Your styles here */
+/* IMPOSTAZIONI GENERALI*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+p {
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: disc;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+ol {
+  list-style: decimal;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+/* IMPOSTAZIONI PERSONALIZZATE */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #25a2c3;
+  line-height: 1.5;
+  margin-bottom: 2vh;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  color: #393d41;
+  line-height: 1.65;
+}
+
+.banner {
+  background-image: url("./img/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 10vh;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.banner p {
+  font-size: medium;
+}
+
+.banner h2 {
+  line-height: 90%;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.image img {
+  display: block;
+  margin-right: auto;
+  margin-left: 2%;
+  width: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 0;
+  border-radius: 0.5vh;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+.testimonianze {
+  background-color: #e22d0e;
+  color: white;
+  text-align: center;
+  margin-top: 10vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.testimonianze h3 {
+  color: white;
+}
+
+.p-italic {
+  font-size: normal;
+  font-style: italic;
+  margin-bottom: 3vh;
+}
+
+.p-smaller {
+  font-size: x-small;
+}
+
+.img-notebook {
+  width: 40%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.notebook-text {
+  display: inline-block;
+  width: 40%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.notebook {
+  text-align: center;
+}
+
+.img-notebook img {
+  margin: auto;
+  border-radius: 50%;
+}
+
+.notebook h4 {
+  margin-bottom: 1.5vh;
+  margin-top: 3vh;
+}
+
+.album {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.figurina {
+  width: 30%;
+  border: 1px solid #dee1e3;
+  border-radius: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 5%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.figurina img {
+  width: 100%;
+}
+
+.figurina-text {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.figurina-text h4 {
+  margin-bottom: 2%;
+}
+
+.p-small {
+  font-size: small;
+  margin-bottom: 3vh;
+}
+
+footer {
+  color: #c8e7f0;
+  background-color: #25a2c3;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  padding-top: 4vh;
+  padding-bottom: 5vh;
+}
+.contatti {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+footer h3 {
+  color: white;
+}
+
+footer a {
+  color: #c8e7f0;
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: small;
+  display: inline-block;
+}
+
+hr {
+  align-items: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.copy {
+  font-size: x-small;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
