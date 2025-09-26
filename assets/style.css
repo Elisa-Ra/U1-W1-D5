@@ -1,0 +1,184 @@
+/* Your styles here */
+/* IMPOSTAZIONI GENERALI*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+p {
+  font-weight: 400;
+  font-style: normal;
+
+  line-height: 1.5;
+}
+
+ul {
+  list-style: disc;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+ol {
+  list-style: decimal;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+/* IMPOSTAZIONI PERSONALIZZATE */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #25a2c3;
+  line-height: 1.5;
+  margin-bottom: 3vh;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  color: #393d41;
+  line-height: 1.65;
+}
+
+.banner {
+  background-image: url("./img/banner.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 5vh;
+  box-sizing: border-box;
+  background-position: center;
+  margin-bottom: 10vh;
+}
+
+.banner p {
+  font-size: medium;
+}
+
+.banner h2 {
+  line-height: 90%;
+}
+
+footer {
+  color: #c8e7f0;
+  background-color: #25a2c3;
+}
+
+footer h1 {
+  color: white;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+header {
+  background-color: black;
+  width: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.image img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 0;
+  border-radius: 0.5vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 10%;
+}
+
+.testimonianze {
+  background-color: #e22d0e;
+  color: white;
+  text-align: center;
+  margin-top: 10vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+  box-sizing: border-box;
+}
+
+.testimonianze h3 {
+  color: white;
+}
+
+.p-small {
+  font-size: small;
+  font-style: italic;
+  margin-bottom: 3vh;
+}
+
+.p-smaller {
+  font-size: x-small;
+}
+
+.figurine {
+  border: 1px solid #dee1e3;
+}
+
+main {
+  width: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.img-notebook img {
+  display: block;
+  margin: auto;
+  width: 50vh;
+  border-radius: 50%;
+}
+
+.notebook {
+  text-align: center;
+}
+
+.notebook h4 {
+  margin-bottom: 1.5vh;
+  margin-top: 3vh;
+}
