@@ -146,7 +146,7 @@ button {
   color: white;
 }
 
-.p-small {
+.p-small-italic {
   font-size: small;
   font-style: italic;
   margin-bottom: 3vh;
@@ -154,10 +154,6 @@ button {
 
 .p-smaller {
   font-size: x-small;
-}
-
-.figurine {
-  border: 1px solid #dee1e3;
 }
 
 main {
@@ -181,4 +177,40 @@ main {
 .notebook h4 {
   margin-bottom: 1.5vh;
   margin-top: 3vh;
+}
+
+.album {
+  width: 50vh;
+  text-align: center;
+}
+
+.figurina {
+  width: 90%;
+  border: 1px solid #dee1e3;
+  border-radius: 0.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 3vh;
+  margin-top: 5vh;
+  box-sizing: border-box;
+}
+
+.figurina img {
+  width: 100%;
+}
+
+.figurina-text {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.figurina-text h4 {
+  margin-bottom: 2%;
+}
+
+.p-small {
+  font-size: small;
+  margin-bottom: 3vh;
 }
