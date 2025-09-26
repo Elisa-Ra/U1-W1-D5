@@ -22,7 +22,6 @@ h3 {
 p {
   font-weight: 400;
   font-style: normal;
-
   line-height: 1.5;
 }
 
@@ -52,7 +51,7 @@ h6 {
   font-weight: bold;
   color: #25a2c3;
   line-height: 1.5;
-  margin-bottom: 3vh;
+  margin-bottom: 2vh;
 }
 
 body {
@@ -78,19 +77,6 @@ body {
 
 .banner h2 {
   line-height: 90%;
-}
-
-footer {
-  color: #c8e7f0;
-  background-color: #25a2c3;
-}
-
-footer h1 {
-  color: white;
-}
-
-footer a {
-  color: #c8e7f0;
 }
 
 header {
@@ -128,6 +114,7 @@ button {
   padding-top: 5%;
   padding-bottom: 5%;
   margin-top: 10%;
+  cursor: pointer;
 }
 
 .testimonianze {
@@ -138,8 +125,7 @@ button {
   padding-left: 2vh;
   padding-right: 2vh;
   padding-top: 5vh;
-  padding-bottom: 3vh;
-  box-sizing: border-box;
+  padding-bottom: 5vh;
 }
 
 .testimonianze h3 {
@@ -163,10 +149,16 @@ main {
   box-sizing: border-box;
 }
 
+.img-notebook {
+  width: 100%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
 .img-notebook img {
   display: block;
   margin: auto;
-  width: 50vh;
+  width: 80%;
   border-radius: 50%;
 }
 
@@ -213,4 +205,50 @@ main {
 .p-small {
   font-size: small;
   margin-bottom: 3vh;
+}
+
+footer {
+  color: #c8e7f0;
+  background-color: #25a2c3;
+  width: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  padding-top: 3vh;
+  padding-bottom: 5vh;
+  text-align: center;
+}
+
+footer h3 {
+  color: white;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+footer p {
+  font-size: small;
+  display: inline-block;
+}
+
+hr {
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.copy {
+  font-size: x-small;
+}
+
+.fas fa-phone-square-alt,
+.fas fa-envelope-square,
+.fas fa-external-link-square-alt {
+  color: white;
 }
